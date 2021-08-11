@@ -4,15 +4,15 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--处理器的映射�?-->
+    <!--处理器的映射器-->
     <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
-    <!--处理器的适配�?-->
+    <!--处理器的适配器-->
     <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
-    <!--视图解析�?:DispatcherServlet给他的ModelAndView
+    <!--视图解析器:DispatcherServlet给他的ModelAndView
         1.获取了ModelAndView中的数据
-        2.解析到了ModelAndView中的自定义视图名�?
+        2.解析到了ModelAndView中的自定义视图名称
         3.拼接视图名字，找到对应的视图    /WEB-INF/jsp/ModelAndView.jsp
-        4.将数据渲染到这个视图�?
+        4.将数据渲染到这个视图上
     -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="InternalResourceViewResolver">
         <!--前缀-->
