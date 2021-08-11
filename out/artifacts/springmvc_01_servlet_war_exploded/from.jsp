@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<form action="/hello2" method="post">
+<form action="/hello" method="post">
     <input type="text" name="method">
     <input type="submit">
 </form>

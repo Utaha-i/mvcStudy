@@ -5,9 +5,11 @@
       <element id="javaee-facet-resources" facet="springmvc-01-servlet/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="springmvc-01-servlet" />
+          <element id="module-source" name="springmvc-01-servlet" />
+          <element id="module-source" name="springmvc-02-hellomvc" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="springmvc-02-hellomvc/web/Web" />
     </root>
   </artifact>
 </component>
